@@ -1,6 +1,6 @@
 [Adblock Plus]
-! Title: HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass - stop people from sneaking around your DNS!
-! Description: Prevent methods to bypass your DNS, blocks encrypted DNS, VPN, TOR, Proxies.
+! Title: Modify from HaGeZi's Encrypted DNS/VPN/TOR/Proxy Bypass - stop people from sneaking around your DNS!
+! Description: Prevents methods to bypass your DNS; blocks encrypted DNS, VPN, TOR, and proxies.
 ! Note: To ensure the bootstrap is your DNS server: Redirect standard DNS outbound (UDP 53) to an internal server. Block all DoT/DoQ (TCP/UDP 853) outbound.
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
