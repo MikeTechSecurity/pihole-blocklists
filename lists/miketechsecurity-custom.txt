@@ -1,5 +1,0 @@
-# MikeTechSecurity custom Pi-hole blocklist
-# Add one domain per line.
-# Example:
-# ads.example.com
-# tracker.example.net
