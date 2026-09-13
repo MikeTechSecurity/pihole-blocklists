@@ -17,7 +17,6 @@ This repository mirrors selected upstream DNS blocklists into stable raw GitHub 
 | `lists/doh-vpn-proxy-bypass.txt` | Kids, optional | Helps limit DNS/VPN/Tor/proxy bypass methods |
 | `lists/stevenblack-hosts.txt` | Optional | StevenBlack hosts mirror; usually redundant when using HaGeZi Pro |
 | `lists/miketechsecurity-custom.txt` | Any group you choose | Your own custom block entries |
-
 Do **not** assign filtering lists to the `Bypass` group.
 
 ## Pi-hole subscription URLs
@@ -33,12 +32,11 @@ https://raw.githubusercontent.com/MikeTechSecurity/pihole-blocklists/main/lists/
 https://raw.githubusercontent.com/MikeTechSecurity/pihole-blocklists/main/lists/nosafesearch.txt
 https://raw.githubusercontent.com/MikeTechSecurity/pihole-blocklists/main/lists/doh-vpn-proxy-bypass.txt
 https://raw.githubusercontent.com/MikeTechSecurity/pihole-blocklists/main/lists/stevenblack-hosts.txt
-https://raw.githubusercontent.com/MikeTechSecurity/pihole-blocklists/main/lists/miketechsecurity-custom.txt
 ```
 
 ## Automatic updates
 
-The workflow in `.github/workflows/update-blocklists.yml` downloads fresh upstream copies every 6 hours and commits changes only when the mirrored content actually changed. It can also be run manually from the **Actions** tab.
+The workflow in `.github/workflows/update-blocklists.yml` downloads fresh upstream copies every 6 hours and commits changes only when the mirrored content actually changes. It can also be run manually from the **Actions** tab.
 
 ## Upstream sources
 
