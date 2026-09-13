@@ -1,0 +1,5 @@
+! MikeTechSecurity custom Pi-hole blocklist
+! Repository: https://github.com/MikeTechSecurity/pihole-blocklists
+! Add one domain per line below, for example:
+! example.com
+! ads.example.net
