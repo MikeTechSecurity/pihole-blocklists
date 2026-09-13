@@ -16,7 +16,7 @@ This repository contains local copies of selected upstream DNS blocklists that c
 | `lists/nosafesearch.txt` | Kids | Blocks search services that do not support SafeSearch |
 | `lists/doh-vpn-proxy-bypass.txt` | Kids, optional | Helps limit DNS/VPN/Tor/proxy bypass methods |
 | `lists/stevenblack-hosts.txt` | Optional | StevenBlack hosts copy; usually redundant when using HaGeZi Pro |
-| `lists/miketechsecurity-custom.txt` | Any group you choose | Your own custom block entries |
+| `lists/Mike-ow-list.txt` | Any group you choose | MikeTechSecurity custom network denylist |
 
 Do **not** assign filtering lists to the `Bypass` group.
 
@@ -33,12 +33,22 @@ https://raw.githubusercontent.com/MikeTechSecurity/pihole-blocklists/main/lists/
 https://raw.githubusercontent.com/MikeTechSecurity/pihole-blocklists/main/lists/nosafesearch.txt
 https://raw.githubusercontent.com/MikeTechSecurity/pihole-blocklists/main/lists/doh-vpn-proxy-bypass.txt
 https://raw.githubusercontent.com/MikeTechSecurity/pihole-blocklists/main/lists/stevenblack-hosts.txt
-https://raw.githubusercontent.com/MikeTechSecurity/pihole-blocklists/main/lists/miketechsecurity-custom.txt
+https://raw.githubusercontent.com/MikeTechSecurity/pihole-blocklists/main/lists/Mike-ow-list.txt
 ```
 
-## Editing your custom list
+## Mike OW custom list
 
-Edit `lists/miketechsecurity-custom.txt` and add one domain per line. After committing changes, run **Update Gravity** in Pi-hole so Pi-hole downloads the latest copy.
+Edit `lists/Mike-ow-list.txt` to add your own network blocks. It includes a ready-to-use template plus a starter set of advertising and tracking domains.
+
+Rules use Pi-hole-compatible ABP-style syntax:
+
+```text
+||example.com^
+```
+
+Lines beginning with `!` are comments. To activate one of the optional example blocks, remove the leading `!` from that rule.
+
+After committing changes, run **Update Gravity** in Pi-hole so Pi-hole downloads the latest copy.
 
 ## Upstream sources
 
