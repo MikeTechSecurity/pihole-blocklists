@@ -1,0 +1,86 @@
+! ============================================================
+! Mike OWN List - Custom Pi-hole Blocklist
+! Maintainer: MikeTechSecurity
+! Repository: https://github.com/MikeTechSecurity/pihole-blocklists
+! ============================================================
+!
+! PURPOSE
+! A personal denylist for domains you want blocked on your network.
+!
+! FORMAT
+! Use one rule per line.
+! Recommended format: ||domain.com^
+! This blocks the domain and its subdomains in Pi-hole's ABP-style parser.
+!
+! Example:
+! ||example.com^
+!
+! Lines beginning with ! are comments and are NOT blocked.
+!
+! IMPORTANT
+! Add only domains you actually want blocked. Blocking core service domains
+! can break logins, streaming, smart-home devices, apps, or software updates.
+!
+! ============================================================
+! ACTIVE STARTER BLOCKS - Advertising / Tracking
+! ============================================================
+||doubleclick.net^
+||googlesyndication.com^
+||googleadservices.com^
+||adservice.google.com^
+||adsrvr.org^
+||adnxs.com^
+||pubmatic.com^
+||rubiconproject.com^
+||openx.net^
+||criteo.com^
+||criteo.net^
+||scorecardresearch.com^
+||quantserve.com^
+||taboola.com^
+||outbrain.com^
+||clarity.ms^
+||ads-twitter.com^
+||app-measurement.com^
+
+! ============================================================
+! YOUR CUSTOM BLOCKS
+! Add new entries below this line.
+! ============================================================
+
+! ||domain-to-block.com^
+! ||another-domain.net^
+
+! ============================================================
+! OPTIONAL TEMPLATES - uncomment ONLY if you want them blocked
+! Remove the leading ! from a rule to activate it.
+! ============================================================
+
+! --- Social / Entertainment ---
+! ||tiktok.com^
+! ||instagram.com^
+! ||facebook.com^
+! ||snapchat.com^
+! ||reddit.com^
+! ||youtube.com^
+
+! --- Gaming / Chat ---
+! ||discord.com^
+! ||twitch.tv^
+
+! --- Shopping ---
+! ||temu.com^
+! ||shein.com^
+
+! --- Search / AI services ---
+! ||bing.com^
+! ||chatgpt.com^
+! ||gemini.google.com^
+
+! ============================================================
+! NOTES
+! - Do not include https:// or URL paths.
+! - After editing this file, run Update Gravity in Pi-hole.
+! - Assign this list only to the Pi-hole groups you want affected.
+! - Do not assign it to your Bypass group.
+! ============================================================
