@@ -50,4 +50,6 @@ Original source URL:
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 ```
 
-`lists/miketechsecurity-custom.txt` is reserved for domains added directly by MikeTechSecurity.
+## Mike OW List
+
+`lists/Mike-ow-list.txt` is the custom network denylist maintained directly by MikeTechSecurity. It contains original local configuration/template content and manually selected block entries.
