@@ -1,5 +1,5 @@
 [Adblock Plus]
-! Title: HaGeZi's NSFW - blocks adult content!
+! Title: Modify from HaGeZi's NSFW - blocks adult content!
 ! Description: Blocks adult content.
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
