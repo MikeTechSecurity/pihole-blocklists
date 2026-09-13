@@ -1,5 +1,5 @@
 ! ============================================================
-! Mike OWN List - Custom Pi-hole Blocklist
+! Mike OWN List - Pi-hole Blocklist
 ! Maintainer: MikeTechSecurity
 ! Repository: https://github.com/MikeTechSecurity/pihole-blocklists
 ! ============================================================
