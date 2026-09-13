@@ -1,5 +1,5 @@
 [Adblock Plus]
-! Title: HaGeZi's safesearch not supported - blocks search engines that skip Safesearch!
+! Title: Modify from HaGeZi's safesearch not supported - blocks search engines that skip Safesearch!
 ! Description: Blocks search engines that don't support Safesearch.
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
