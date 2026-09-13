@@ -1,5 +1,5 @@
 [Adblock Plus]
-! Title: HaGeZi's Gambling medium - blocks gambling content!
+! Title: Modify from HaGeZi's Gambling medium - blocks gambling content!
 ! Description: Blocks gambling-related sites.
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
