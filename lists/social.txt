@@ -1,7 +1,7 @@
 [Adblock Plus]
-! Title: HaGeZi's Social Networks - blocks access to social networks!
+! Title: Modify from HaGeZi's Social Networks - blocks access to social networks!
 ! Description: Blocks social networks like Facebook, Instagram, TikTok, X (formerly Twitter), Snapchat, and others.
-! Note: This list won't block messaging apps like WhatsApp or streaming platforms like Twitch. It's strictly aimed at classic social networking sites.
+! Note: Discord is excluded from this list, and this list won't block messaging apps like WhatsApp or streaming platforms like Twitch. It's strictly aimed at classic social networking sites.
 ! Homepage: https://github.com/hagezi/dns-blocklists
 ! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE
 ! Issues: https://github.com/hagezi/dns-blocklists/issues
@@ -83,26 +83,6 @@
 ||defcon.social^
 ||det.social^
 ||dis.gd^
-||discord-activities.com^
-||discord.com^
-||discord.co^
-||discord.design^
-||discord.dev^
-||discord.gg^
-||discord.gifts^
-||discord.gift^
-||discord.media^
-||discord.new^
-||discord.store^
-||discord.tools^
-||discordactivities.com^
-||discordapp.com^
-||discordapp.io^
-||discordapp.net^
-||discordcdn.com^
-||discordmerch.com^
-||discordsays.com^
-||discordstatus.com^
 ||dlfacebook.com^
 ||dotfacebook.com^
 ||dotfacebook.net^
