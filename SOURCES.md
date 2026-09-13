@@ -50,8 +50,4 @@ Upstream URL used by the workflow:
 https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 ```
 
-Review and comply with the upstream project's current license and attribution requirements.
-
-## MikeTechSecurity custom entries
-
 `lists/miketechsecurity-custom.txt` is reserved for local domains added by MikeTechSecurity and is not overwritten by the automated mirror workflow.
